@@ -1,4 +1,4 @@
-import MeetTheDevsPage from "./DevsPage.jsx";
+import MeetTheDevsPage from "./AboutUs.jsx";
 
 export default function App() {
   return (
