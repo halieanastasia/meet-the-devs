@@ -17,7 +17,7 @@ const developers = [
     name: "Megan Chow",
     picture: megan,
     blurb:
-      "Favourite Contribution: Designed and managed our Supabase database. This ensured the data stayed clean and usable as our project grew",
+      "Favourite Contribution: Designing and managed our Supabase database. This ensured the data stayed clean and usable as our project grew",
     memory: "Favourite contribution / dev memory goes here.",
     linkedin: "https://www.linkedin.com/in/megancchow/",
     portfolio: "https://github.com/megan-chow",
@@ -41,7 +41,7 @@ const developers = [
     name: "Vish Epa",
     picture: vish,
     blurb:
-      "Favourite Contribution: Made the Easter egg where clicking the logo five times switches on heritage mode. This allows the user to see what Vancouver looked like in 1974.",
+      "Favourite Contribution: Creating the food resource simulation feature. This allows the user to add food resources to the map which demonstrates how the score would improve with additional resources.",
     memory: "Favourite contribution / dev memory goes here.",
     linkedin: "linkedin.com/in/vish-epa",
     portfolio: "https://github.com/vishepa",
@@ -53,7 +53,7 @@ const developers = [
     name: "Carlos Fonseca",
     picture: carlos,
     blurb:
-      "Favourite Contribution: Built the AI feature which allows the user to generate an overview an area. This displays key information about the selected area at a glance.",
+      "Favourite Contribution: Building the AI feature which allows the user to generate an overview an area. This displays key information about the selected area at a glance.",
     memory: "Favourite contribution / dev memory goes here.",
     linkedin: "https://www.linkedin.com/in/carlosrcpf/",
     portfolio: "https://github.com/CaduF01",
