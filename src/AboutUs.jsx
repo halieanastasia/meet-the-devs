@@ -16,7 +16,8 @@ const developers = [
     id: 1,
     name: "Megan Chow",
     picture: megan,
-    blurb: "Intro blurb goes here.",
+    blurb:
+      "Favourite Contribution: Designed and managed our Supabase database. This ensured the data stayed clean and usable as our project grew",
     memory: "Favourite contribution / dev memory goes here.",
     linkedin: "https://www.linkedin.com/in/megancchow/",
     portfolio: "https://github.com/megan-chow",
@@ -27,7 +28,8 @@ const developers = [
     id: 2,
     name: "Halie Favron",
     picture: halie,
-    blurb: "Intro blurb goes here.",
+    blurb:
+      "Favourite Contribution: Creating the algorithm which gave each area its accessibility score. This allowed us to create the colour-coding system which shows the scores on the map.",
     memory: "Favourite contribution / dev memory goes here.",
     linkedin: "https://www.linkedin.com/in/haliefavron/",
     portfolio: "https://github.com/halieanastasia",
@@ -38,7 +40,8 @@ const developers = [
     id: 3,
     name: "Vish Epa",
     picture: vish,
-    blurb: "Intro blurb goes here.",
+    blurb:
+      "Favourite Contribution: Made the Easter egg where clicking the logo five times switches on heritage mode. This allows the user to see what Vancouver looked like in 1974.",
     memory: "Favourite contribution / dev memory goes here.",
     linkedin: "linkedin.com/in/vish-epa",
     portfolio: "https://github.com/vishepa",
@@ -49,7 +52,8 @@ const developers = [
     id: 4,
     name: "Carlos Fonseca",
     picture: carlos,
-    blurb: "Intro blurb goes here.",
+    blurb:
+      "Favourite Contribution: Built the AI feature which allows the user to generate an overview an area. This displays key information about the selected area at a glance.",
     memory: "Favourite contribution / dev memory goes here.",
     linkedin: "https://www.linkedin.com/in/carlosrcpf/",
     portfolio: "https://github.com/CaduF01",
@@ -60,7 +64,7 @@ const developers = [
     id: 5,
     name: "Adam Olszewski",
     picture: adam,
-    blurb: "Intro blurb goes here.",
+    blurb: "Favourite Contribution: Designed the UI and helped implement it.",
     memory: "Favourite contribution / dev memory goes here.",
     linkedin: "https://www.linkedin.com/in/adam-e-olszewski/",
     portfolio: "https://github.com/Lime-N-ade",
@@ -92,7 +96,7 @@ function DevCard({ dev }) {
 
       {/* Intro blurb + memory */}
       <p className="text-sm text-gray-600 mb-2">{dev.blurb}</p>
-      <p className="text-sm text-gray-500 italic mb-4">{dev.memory}</p>
+      {/* <p className="text-sm text-gray-500 italic mb-4">{dev.memory}</p> */}
 
       {/* Icon row */}
       <div className="flex items-center gap-2 relative">
